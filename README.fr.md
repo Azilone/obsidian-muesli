@@ -13,7 +13,7 @@ Open source. Aucun bot dans ton appel. Tes notes restent dans ton coffre.
 <table>
   <tr>
     <td align="center" width="200"><h2>0</h2>bot dans ton appel</td>
-    <td align="center" width="200"><h2>Toutes</h2>les visios : Zoom, Meet, Teams…</td>
+    <td align="center" width="200"><h2>Toutes</h2>les visios</td>
     <td align="center" width="200"><h2>Secondes</h2>entre stop et tes notes</td>
     <td align="center" width="200"><h2>100 %</h2>Markdown, à toi</td>
   </tr>

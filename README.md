@@ -13,7 +13,7 @@ Open source. No bot joins your call. Your notes stay in your vault.
 <table>
   <tr>
     <td align="center" width="200"><h2>0</h2>bots in your call</td>
-    <td align="center" width="200"><h2>Any</h2>call app: Zoom, Meet, Teams…</td>
+    <td align="center" width="200"><h2>Any</h2>call app</td>
     <td align="center" width="200"><h2>Seconds</h2>from stop to notes</td>
     <td align="center" width="200"><h2>100%</h2>plain Markdown, yours</td>
   </tr>
