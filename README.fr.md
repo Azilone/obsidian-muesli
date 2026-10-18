@@ -4,7 +4,7 @@
 
 ### Granola, dans Obsidian. Enregistre n'importe quel appel, récupère notes, actions et transcript dans ton coffre.
 
-Gratuit et open source. Aucun bot dans ton appel. Aucun abonnement.
+Open source. Aucun bot dans ton appel. Tes notes restent dans ton coffre.
 
 [![Plugin de la communauté Obsidian](https://img.shields.io/badge/Obsidian-community%20plugin-7c3aed)](https://community.obsidian.md/plugins/muesli)
 [![License: MIT](https://img.shields.io/badge/license-MIT-333)](LICENSE)
@@ -13,7 +13,7 @@ Gratuit et open source. Aucun bot dans ton appel. Aucun abonnement.
 <table>
   <tr>
     <td align="center" width="200"><h2>0</h2>bot dans ton appel</td>
-    <td align="center" width="200"><h2>0,10 $</h2>par heure de parole</td>
+    <td align="center" width="200"><h2>Toutes</h2>les visios : Zoom, Meet, Teams…</td>
     <td align="center" width="200"><h2>Secondes</h2>entre stop et tes notes</td>
     <td align="center" width="200"><h2>100 %</h2>Markdown, à toi</td>
   </tr>
@@ -44,7 +44,7 @@ Les actions sortent en `- [ ] Paul — envoyer le récap (vendredi)`, prêtes po
 Dans Obsidian : **Réglages → Plugins communautaires → Parcourir → « Muesli » → Installer → Activer**.
 Ou [ouvre-le dans l'annuaire](https://community.obsidian.md/plugins/muesli) et clique *Add to Obsidian*.
 
-Un écran de configuration demande ensuite une [clé OpenRouter](https://openrouter.ai/keys) (paiement à l'usage, quelques dollars tiennent des mois), ton nom, et lance un test du son. C'est tout.
+Un écran de configuration demande ensuite une [clé OpenRouter](https://openrouter.ai/keys), ton nom, et lance un test du son. C'est tout.
 
 ## Pourquoi Muesli
 
@@ -52,7 +52,6 @@ Un écran de configuration demande ensuite une [clé OpenRouter](https://openrou
 |-------------------------------------|:-------:|:-----------------:|:----------:|
 | Aucun bot dans l'appel              |    ✓    |         –         |   **✓**    |
 | Notes dans ton coffre Obsidian      |    –    |         –         |   **✓**    |
-| Sans abonnement, paiement à l'usage |    –    |         –         |   **✓**    |
 | Open source                         |    –    |         –         |   **✓**    |
 | Zoom, Meet, Teams, n'importe quelle app | ✓   |         ~         |   **✓**    |
 
@@ -68,7 +67,7 @@ Un écran de configuration demande ensuite une [clé OpenRouter](https://openrou
 ## Confidentialité et transparence
 
 - **Réseau** : l'audio et le texte partent **uniquement vers [OpenRouter](https://openrouter.ai)** (et les fournisseurs de modèles vers lesquels il route), avec ta propre clé. Aucune télémétrie, aucun serveur à nous.
-- **Service payant** : OpenRouter se paie à l'usage (environ 0,10 $ par heure de parole, plus quelques centimes de LLM par réunion).
+- **Service payant** : OpenRouter est une API payante ; il faut un compte avec du crédit.
 - **Helper natif (macOS)** : le son du système est capté par `meeting-tap`, un petit programme Swift open source ([source](native/macos/main.swift)) embarqué dans `main.js` avec son SHA-256 et écrit dans le dossier du plugin à la première utilisation. Rien n'est téléchargé. Les deux sont compilés par GitHub Actions avec des [attestations de provenance](https://github.com/Azilone/obsidian-muesli/attestations).
 - **Fichiers hors du coffre** : seulement quand tu importes un fichier du disque, ou avec la boîte de réception Dictaphone optionnelle (accès complet au disque requis).
 - **Préviens toujours les participants que tu enregistres**, et respecte les lois sur le consentement là où tu vis.
@@ -82,7 +81,7 @@ Un écran de configuration demande ensuite une [clé OpenRouter](https://openrou
 | Windows, Linux | — (micro seul pour l'instant) | ✅ |
 | iOS, Android | — | ✅ |
 
-Obsidian 1.13 ou plus récent, et une [clé API OpenRouter](https://openrouter.ai/keys) avec quelques dollars de crédit.
+Obsidian 1.13 ou plus récent, et une [clé API OpenRouter](https://openrouter.ai/keys).
 Sur iOS, garde Obsidian au premier plan pendant l'enregistrement. La clé est stockée par appareil.
 
 </details>
